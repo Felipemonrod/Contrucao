@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  border: 0;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  #container-header-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 5%;
+      margin: 20px 0 20px 0;
+      img {
+        width: 10%;
+        border-radius: 50%;
+      }
+    }
+  }
+  #menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+      li {
+        margin: 10px;
+        text-align: center;
+        font-size: larger;
+        background-color: aliceblue;
+        width: 250px;
+        padding: 20px;
+        border-radius: 15px;
+
+        a {
+          text-decoration: none;
+          color: black;
+        }
+      }
+
+      li:hover {
+        margin: 20px 0 0 20px;
+        text-align: center;
+        background-color: black;
+        width: 250px;
+        padding: 20px;
+        border-radius: 15px;
+        transition: 0.5s ease-in-out;
+
+        a {
+          color: aliceblue;
+        }
+      }
+    }
+  }
+  #menu-pesquisa{
+
+  }
+}
+
